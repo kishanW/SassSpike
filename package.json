@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/kishanW/SassSpike/issues"
   },
-  "homepage": "https://github.com/kishanW/SassSpike#readme"
+  "homepage": "https://github.com/kishanW/SassSpike#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0"
+  }
 }
