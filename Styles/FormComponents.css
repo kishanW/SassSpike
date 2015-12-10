@@ -23,7 +23,7 @@ input[type=text]:focus,
 input[type=password]:focus,
 input[type=url]:focus,
 select:focus {
-  border-bottom: 1px solid #607D8B; }
+  border-bottom: 1px solid #59697D; }
 
 /* Custom checkbox styling
  ***********************************/
@@ -48,7 +48,7 @@ select:focus {
   margin-right: 10px; }
 
 .checkboxWrap input[type=checkbox]:checked ~ label {
-  background-color: #607D8B; }
+  background-color: #59697D; }
 
 .checkboxWrap input[type=checkbox] ~ label:before {
   content: '\e81c';

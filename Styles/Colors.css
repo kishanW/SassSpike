@@ -9,13 +9,13 @@
 /*	Color Classes [with hover effects]
 ***********************************/
 .blue {
-  background-color: #4E58C7; }
+  background-color: #5690CA; }
 
 .green {
-  background-color: #04AC50; }
+  background-color: #5ab209; }
 
 .yellow {
-  background-color: #FBB822; }
+  background-color: #E5AE35; }
 
 .orange {
   background-color: #E67E22; }
@@ -24,16 +24,16 @@
   background-color: #f45f45; }
 
 .default-color {
-  background-color: #607D8B; }
+  background-color: #59697D; }
 
 .blue:hover {
-  background-color: #3c47bf; }
+  background-color: #4383c4; }
 
 .green:hover {
-  background-color: #039344; }
+  background-color: #4e9a08; }
 
 .yellow:hover {
-  background-color: #fbb009; }
+  background-color: #e2a51e; }
 
 .orange:hover {
   background-color: #d67118; }
@@ -42,18 +42,18 @@
   background-color: #f34a2d; }
 
 .default-color:hover {
-  background-color: #566f7c; }
+  background-color: #4e5c6e; }
 
 /*	Color Classes [without hover effects]
 ***********************************/
 .blue-no-hover {
-  background-color: #4E58C7; }
+  background-color: #5690CA; }
 
 .green-no-hover {
-  background-color: #04AC50; }
+  background-color: #5ab209; }
 
 .yellow-no-hover {
-  background-color: #FBB822; }
+  background-color: #E5AE35; }
 
 .orange-no-hover {
   background-color: #E67E22; }
@@ -62,4 +62,4 @@
   background-color: #f45f45; }
 
 .default-color-no-hover {
-  background-color: #607D8B; }
+  background-color: #59697D; }

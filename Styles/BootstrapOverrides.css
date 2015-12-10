@@ -9,7 +9,7 @@
   overflow: hidden; }
 
 .panel.panel-default .panel-heading {
-  background-color: #607D8B;
+  background-color: #59697D;
   border-radius: 0;
   border: none;
   font-size: 16px;
@@ -35,11 +35,11 @@
   border: none; }
 
 .table thead {
-  border-right: 1px solid #607D8B;
-  border-left: 1px solid #607D8B; }
+  border-right: 1px solid #59697D;
+  border-left: 1px solid #59697D; }
 
 .table thead tr th {
-  background-color: #607D8B;
+  background-color: #59697D;
   color: #eee;
   font-size: 16px;
   border-bottom: none; }
@@ -57,19 +57,19 @@
 /* Bootstrap Tooltips & Popovers
 ****************************/
 .popover .popover-title, [class^=tooltip] .tooltip-inner {
-  background-color: #607D8B; }
+  background-color: #59697D; }
 
 .tooltip.top .tooltip-arrow {
-  border-top-color: #607D8B; }
+  border-top-color: #59697D; }
 
 .tooltip.right .tooltip-arrow {
-  border-right-color: #607D8B; }
+  border-right-color: #59697D; }
 
 .tooltip.bottom .tooltip-arrow {
-  border-bottom-color: #607D8B; }
+  border-bottom-color: #59697D; }
 
 .tooltip.left .tooltip-arrow {
-  border-left-color: #607D8B; }
+  border-left-color: #59697D; }
 
 .popover {
   border: none;

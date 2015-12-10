@@ -9,7 +9,7 @@ $site-text-highlight-color: rgba(230,126,34, 0.5);
 $button-min-width: 120px;
 $button-padding: 6px 12px;
 $button-text-weight: 700;
-$button-type : "ghost"; //[regular, ghost]
+$button-type : "flat"; //[regular, ghost, flat]
 $button-border-radius: 15px;
 
 // Text
@@ -17,12 +17,12 @@ $text-color-dark: #555;
 $text-color-light: #eee;
 
 // Colors
-$blue: #4E58C7;
-$green: #04AC50;
-$yellow: #FBB822;
+$blue: #5690CA;
+$green: #5ab209;
+$yellow: #E5AE35;
 $orange: #E67E22;
 $red: #f45f45;
-$default-color: #607D8B;
+$default-color: #59697D;
 
 $hover-shade: 5%;
 $blue-hover: darken($blue, $hover-shade);
