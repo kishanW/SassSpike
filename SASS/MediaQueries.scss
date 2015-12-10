@@ -1,0 +1,23 @@
+@import '_configuration';
+
+/* Media queries
+***************************************/
+//Custom CSS For Extra Small creens
+@media (max-width: 767px) {
+    .button {width: 100%;}
+}
+
+//Custom CSS For Small Screens
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+//Custom CSS for medium screens*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+//Custom CSS For Larger Screens*/
+@media (min-width: 1200px) {
+
+}

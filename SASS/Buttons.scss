@@ -1,0 +1,95 @@
+@import '_configuration';
+
+/* Button styling
+***********************************/
+.button{
+	border-radius: $button-border-radius;
+	color: $text-color-light;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: $button-text-weight;
+	margin: 0 2px 2px 0;	
+	min-width: $button-min-width;
+	outline: none;
+	padding: $button-padding;
+	text-align: center;
+	text-decoration: none;
+    border: none;		
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+@if $button-type == 'regular'
+{
+/* Regular button configuration
+***********************************/
+	.button{
+		border-bottom: 2px solid transparent;
+	}
+	.button:hover{
+		border-bottom: 2px solid rgba(0,0,0,0.3);	
+	}
+}
+
+@if $button-type == 'ghost'
+{
+/* Ghost button configuration
+***********************************/
+	.button{
+		background-color: transparent;
+		border: 2px solid transparent;	
+	}
+
+	.button.blue{
+		color: $blue;
+		border-color: $blue;
+	}
+	.button.green{
+		color: $green;
+		border-color: $green;
+	}
+	.button.yellow{
+		color: $yellow;
+		border-color: $yellow;
+	}
+	.button.orange{
+		color: $orange;
+		border-color: $orange;
+	}
+	.button.red{
+		color: $red;
+		border-color: $red;
+	}
+	.button.default-color{
+		color: $default-color;
+		border-color: $default-color;
+	}
+	
+	.button:hover{
+		color: $text-color-light;		
+	}
+	.button.blue:hover{
+		background-color: $blue-hover;
+		border-color: $blue-hover;
+	}
+	.button.green:hover{
+		background-color: $green-hover;
+		border-color: $green-hover;
+	}
+	.button.yellow:hover{
+		background-color: $yellow-hover;
+		border-color: $yellow-hover;
+	}
+	.button.orange:hover{
+		background-color: $orange-hover;
+		border-color: $orange-hover;
+	}
+	.button.red:hover{
+		background-color: $red-hover;
+		border-color: $red-hover;
+	}
+	.button.default-color:hover{
+		background-color: $default-color-hover;
+		border-color: $default-color-hover;
+	}
+}

@@ -1,0 +1,74 @@
+/* Button styling
+***********************************/
+.button {
+  border-radius: 15px;
+  color: #eee;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  margin: 0 2px 2px 0;
+  min-width: 120px;
+  outline: none;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  box-sizing: border-box;
+  text-transform: capitalize; }
+
+/* Ghost button configuration
+***********************************/
+.button {
+  background-color: transparent;
+  border: 2px solid transparent; }
+
+.button.blue {
+  color: #4E58C7;
+  border-color: #4E58C7; }
+
+.button.green {
+  color: #04AC50;
+  border-color: #04AC50; }
+
+.button.yellow {
+  color: #FBB822;
+  border-color: #FBB822; }
+
+.button.orange {
+  color: #E67E22;
+  border-color: #E67E22; }
+
+.button.red {
+  color: #f45f45;
+  border-color: #f45f45; }
+
+.button.default-color {
+  color: #607D8B;
+  border-color: #607D8B; }
+
+.button:hover {
+  color: #eee; }
+
+.button.blue:hover {
+  background-color: #3c47bf;
+  border-color: #3c47bf; }
+
+.button.green:hover {
+  background-color: #039344;
+  border-color: #039344; }
+
+.button.yellow:hover {
+  background-color: #fbb009;
+  border-color: #fbb009; }
+
+.button.orange:hover {
+  background-color: #d67118;
+  border-color: #d67118; }
+
+.button.red:hover {
+  background-color: #f34a2d;
+  border-color: #f34a2d; }
+
+.button.default-color:hover {
+  background-color: #566f7c;
+  border-color: #566f7c; }

@@ -1,0 +1,65 @@
+@import '_configuration';
+
+/* Form component styling
+ ***********************************/
+ label {
+    width: 100%;
+    font-weight: 700;
+}
+input[type=text], 
+input[type=password], 
+input[type=url], 
+select {
+    width: 100%;
+    border: none;
+    background-color: #fff;
+    outline: 0;
+    padding: 5px 10px;
+    height: $site-input-height;
+    border-bottom: 1px solid #ccc;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=url]:focus, 
+select:focus {
+    border-bottom: 1px solid $default-color;
+}
+
+/* Custom checkbox styling
+ ***********************************/
+.checkboxWrap input[type=checkbox] {
+    position: absolute;
+    opacity: 0;
+    display: none;
+}
+.checkboxWrap input[type=checkbox] ~ label {
+    display: inline-block;
+    width: $site-input-height;
+    min-width: 0;
+    height: $site-input-height;
+    line-height: $site-input-height;
+    border-radius: 50%;
+    padding: 0;
+    text-align: center;    
+    background-color: #bbb;
+    float: none;
+    cursor: pointer;
+    margin: 0;
+    margin-right: 10px;
+}
+.checkboxWrap input[type=checkbox]:checked ~ label {
+    background-color: $default-color;
+}
+.checkboxWrap input[type=checkbox] ~ label:before {
+    content: '\e81c';
+    font-family: "fontello";
+    cursor: pointer;
+    color: #eee;
+}
+.checkboxWrap input[type=checkbox]:checked ~ label:before {
+    content: '\e81c';
+    color: #fff;
+}
