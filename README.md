@@ -1,2 +1,2 @@
 # SassSpike
-Spike for using SASS
+SASS test
