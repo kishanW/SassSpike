@@ -6,7 +6,7 @@ var sass = require('gulp-sass');
 /*	Paths
 ********************************************/
 var cssPath = './Styles/';
-var sassPath = './SASS/**/*.scss'
+var sassPath = './SASS/*.scss'
 
 /*	Tasks
 ********************************************/
