@@ -4,13 +4,13 @@ $site-font-size: 14px;
 $site-input-height: 36px;
 $site-text-highlight-color: rgba(230,126,34, 0.5);
 $site-background-color: #f6f6f6;
+$site-theme : "flat"; //[default, ghost, flat]
 
 // Button configuration
 $button-min-width: 120px;
 $button-padding: 6px 12px;
 $button-text-weight: 700;
-$button-type : "flat"; //[regular, ghost, flat]
-$button-border-radius: 15px;
+$button-border-radius: 30px;
 
 // Text
 $text-color-dark: #555;
