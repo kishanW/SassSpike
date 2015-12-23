@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo Page</title>
+
+	<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="./Styles/Style.css">
+	<link rel="stylesheet" type="text/css" href="./Styles/BootstrapOverrides.css">
+	<link rel="stylesheet" type="text/css" href="./Styles/FormComponents.css">
+	<link rel="stylesheet" type="text/css" href="./Styles/Colors.css">
+	<link rel="stylesheet" type="text/css" href="./Styles/Buttons.css">
+	<link rel="stylesheet" type="text/css" href="./Styles/MediaQueries.css">
+</head>
+<body>
+	<div id="contentWrap">
+		<header></header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="form-group">
+						<label>Buttons</label>
+						<button class="button default-color">Default button</button>
+						<button class="button blue">Click me!</button>
+						<button class="button green">Click me!</button>
+						<button class="button yellow">Click me!</button>
+						<button class="button orange">Click me!</button>
+						<button class="button red">Click me!</button>
+					</div>
+				</div>
+				<div class="col-lg-3">
+	                <h1>Header 1</h1>
+	                <h2>Header 2</h2>
+	                <h3>Header 3</h3>
+	                <h4>Header 4</h4>
+	            </div>
+	            <div class="col-lg-3">
+	                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras imperdiet imperdiet orci, non pulvinar sem. Integer a vestibulum mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+	                <br />
+	                Nunc tincidunt lectus mi, vel mollis ante convallis a. Nulla dapibus semper sem eu posuere. Nulla aliquam vel nisl non fermentum. Phasellus ultricies, justo sed pellentesque varius, tellus risus fermentum.
+	            </div>
+			</div>
+
+			<hr>
+			<div class="row">
+	            <div class="col-lg-3">
+	                <label for="daTextBox">Textbox</label>
+	                <input type="text" name="daTextBox">
+	            </div>
+	            <div class="col-lg-3">
+	                <label for="daDropDown">Dropdown list</label>
+	                <select name="daDropDown">
+	                    <option value="">Option One</option>
+	                    <option value="">Option Two</option>
+	                    <option value="">Option Three</option>
+	                </select>
+	            </div>
+	            <div class="col-lg-3">
+	                <label>Dropdown with link</label>
+	                <div class="dropdown">
+	                    <button class="button green dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+	                        Dropdown
+	                        <span class="caret"></span>
+	                    </button>
+	                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+	                        <li><a href="#">Action</a></li>
+	                        <li><a href="#">Another action</a></li>
+	                        <li><a href="#">Something else here</a></li>
+	                        <li><a href="#">Separated link</a></li>
+	                    </ul>
+	                </div>
+	            </div>
+	            <div class="col-lg-3">
+	                <label>Checkbox</label>
+	                <div class="row checkboxWrap">
+	                    <input type="checkbox" name="toggle-1" id="toggle-1">
+	                    <label for="toggle-1" class="glyphicon button-default blue" data-role="standaloneCheckbox"></label>
+	                </div>
+	            </div>
+	        </div>
+
+	        <hr>
+	        <div class="row">
+	            <div class="col-lg-3">
+	                <label>Button group</label>
+	                <div class="btn-group" role="group" aria-label="..." data-component="buttonGroup">
+	                    <button type="button" class="green">Left</button>
+	                    <button type="button" class="green">Middle</button>
+	                    <button type="button" class="green">Right</button>
+	                </div>
+	            </div>
+	            <div class="col-lg-3">
+	                <label>Input group</label>
+	                <div class="input-group">
+	                    <span class="input-group-addon" id="basic-addon1">
+	                        <span class="glyphicon glyphicon-cog"></span>
+	                    </span>
+	                    <input type="text" placeholder="Username" aria-describedby="basic-addon1">
+	                </div>
+	            </div>
+	            <div class="col-lg-3">
+	                <label>Checkboxes and radio button addons</label>
+	                <div class="input-group">
+	                    <span class="input-group-addon checkboxWrap">
+	                        <input type="checkbox" name="toggle-2" id="toggle-2">
+	                        <label for="toggle-2" class="glyphicon "></label>
+	                    </span>
+	                    <input type="text" aria-label="...">
+	                </div>
+	            </div>
+	            <div class="col-lg-3">
+	                <label>Tooltips</label>
+	                <button type="button" class="button blue" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
+	                <button type="button" class="button blue" data-toggle="popover" data-placement="left" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Popover</button>
+	            </div>
+	        </div>
+
+	        <hr>
+	        <div class="row">
+	            <div class="col-lg-6">
+	                <label>Tabs</label>
+	                <!-- Nav tabs -->
+	                <ul class="nav nav-tabs" role="tablist">
+	                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+	                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+	                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+	                </ul>
+
+	                <!-- Tab panes -->
+	                <div class="tab-content">
+	                    <div role="tabpanel" class="tab-pane active" id="home">
+												Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+												terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+												skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+												Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+												single-origin coffee nulla assumenda shoreditch et. Nihil anim
+												keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+												sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+												Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+												synth nesciunt you probably haven't heard of them accusamus labore
+												sustainable VHS.
+											</div>
+	                    <div role="tabpanel" class="tab-pane" id="profile">Profile stuff</div>
+	                    <div role="tabpanel" class="tab-pane" id="messages">Messages</div>
+	                </div>
+	            </div>
+	            <div class="col-lg-6">
+	                <label>Accordian</label>
+	                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+	                    <div class="panel panel-default">
+	                        <div class="panel-heading" role="tab" id="headingOne">
+	                            <h4 class="panel-title">
+	                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	                                    Collapsible Group Item #1
+	                                </a>
+	                            </h4>
+	                        </div>
+	                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+	                            <div class="panel-body">
+	                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	                            </div>
+	                        </div>
+	                    </div>
+	                    <div class="panel panel-default">
+	                        <div class="panel-heading" role="tab" id="headingTwo">
+	                            <h4 class="panel-title">
+	                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	                                    Collapsible Group Item #2
+	                                </a>
+	                            </h4>
+	                        </div>
+	                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+	                            <div class="panel-body">
+	                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	                            </div>
+	                        </div>
+	                    </div>
+	                    <div class="panel panel-default">
+	                        <div class="panel-heading" role="tab" id="headingThree">
+	                            <h4 class="panel-title">
+	                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	                                    Collapsible Group Item #3
+	                                </a>
+	                            </h4>
+	                        </div>
+	                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+	                            <div class="panel-body">
+	                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+	                            </div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+
+					<div class="row">
+						<div class="col-lg-12">
+							<hr>
+						</div>
+					</div>
+
+	        <div class="row">
+						<div class="col-lg-6">
+							<div class="panel panel-default">
+								<div class="panel-heading">Panel Heading</div>
+								<div class="panel-body">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+									terry richardson ad squid. 3 wolf moon officia aute, non cupidatat
+									skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+									Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+									single-origin coffee nulla assumenda shoreditch et. Nihil anim
+									keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+									sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+									Leggings occaecat craft beer farm-to-table, raw denim aesthetic
+									synth nesciunt you probably haven't heard of them accusamus labore
+									sustainable VHS.
+								</div>
+							</div>
+						</div>
+	        	<div class="col-lg-6">
+	        		<table class="table table-striped">
+	                    <thead>
+	                        <tr>
+	                            <th>Date</th>
+	                            <th>Description</th>
+	                            <th>Some Other Details</th>
+	                        </tr>
+	                    </thead>
+	                    <tbody>
+	                        <tr>
+	                            <td>08/25/2015</td>
+	                            <td>Example something</td>
+	                            <td>Jimmy</td>
+	                        </tr>
+	                        <tr>
+	                            <td>08/25/2015</td>
+	                            <td>Example something</td>
+	                            <td>Jimmy</td>
+	                        </tr>
+	                        <tr>
+	                            <td>08/25/2015</td>
+	                            <td>Example something</td>
+	                            <td>Jimmy</td>
+	                        </tr>
+	                    </tbody>
+	                </table>
+	        	</div>
+	        </div>
+		</div>
+	</div>
+	<footer>
+		<span>Test &copy;</span>
+	</footer>
+</body>
+</html>

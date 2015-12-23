@@ -1,10 +1,11 @@
 @import './SASS/_configuration';
+
 /* 	Button configuration
 *****************************************/
 .button{
 	position:relative;
 	padding:10px 20px;
-	border-radius: 10px;		
+	border-radius: 10px;
 	margin: 0 5px 10px 0;
 	border: none;
 	color: #eee;
@@ -13,7 +14,7 @@
 
 @mixin flat-button-box-shadow($color){
 	box-shadow: 0px 5px 0px 0px $color, 0px 10px 5px rgba(0,0,0,0.3);
-}	
+}
 
 .button.default-color{
 	@include flat-button-box-shadow($default-color-hover);
