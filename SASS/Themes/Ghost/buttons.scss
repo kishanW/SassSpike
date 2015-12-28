@@ -72,3 +72,9 @@
 	background-color: $default-color-hover;
 	border-color: $default-color-hover;
 }
+
+/*	Focus
+**************************************/
+.button:focus{
+	box-shadow: 0 0 0px 5px transparentize($default-color, 0.7);
+}

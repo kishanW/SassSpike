@@ -15,22 +15,19 @@ input[type=url],
 select {
     width: 100%;
     border: none;
-    background-color: #f45;
+    background-color: lighten($default-color, 80);
     outline: 0;
     padding: 5px 10px;
     height: 36px;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid transparent;
+    border-bottom-color: lighten($default-color, 60);
 }
 
 input[type=text]:focus,
 input[type=password]:focus,
 input[type=url]:focus,
 select:focus {
-    border-bottom: 1px solid #0068b3;
-    animation: textInputFocusAnimation .5s infinite;
-    -webkit-animation: textInputFocusAnimation .5s infinite;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
+    border-color: lighten($default-color, 30);
 }
 
 select {
